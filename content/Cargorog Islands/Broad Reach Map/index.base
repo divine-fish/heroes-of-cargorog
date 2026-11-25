@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.ext != "base"
+    - file.folder == "Cargorog Islands/Broad Reach Map"
+views:
+  - type: leaflet-map
+    name: Map
+    image: Assets/Maps/broad reach.svg
+    height: 800
+    defaultZoom: 0.5
+  - type: table
+    name: View

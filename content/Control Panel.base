@@ -1,0 +1,10 @@
+filters:
+  and:
+    - '!file.path.startsWith("atlas-vtt")'
+    - '!file.path.startsWith("Generators")'
+views:
+  - type: table
+    name: View
+    order:
+      - file.name
+      - publish

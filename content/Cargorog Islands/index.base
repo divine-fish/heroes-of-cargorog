@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.ext != "base"
+    - file.folder == "Cargorog Islands"
+views:
+  - type: leaflet-map
+    name: Map
+    image: Assets/Maps/cargorog_islands.svg
+    height: 800
+    mapName: Cargorog Islands
+    center: 2084, 933
+    defaultZoom: -0.39
+    minZoom: -1
+    maxZoom: 3
+    unit: day
+    scale: "0.011"
+  - type: table
+    name: List
